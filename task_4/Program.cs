@@ -7,8 +7,8 @@ string number = Console.ReadLine();
 int a = Int32.Parse(number);
 
 int counter = 2;
-while (counter < a)
+while (counter <= a)
 {
-  Console.Write($"{counter} ");
+  Console.Write($"{counter}, ");
   counter = counter + 2;
 }
