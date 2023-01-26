@@ -3,7 +3,7 @@
 //      -3 -> нет
 //      7 -> нет
 
-Console.WriteLine("Введите первое число ");
+Console.WriteLine("Введите число ");
 string number = Console.ReadLine();
 int a = Int32.Parse(number);
 
